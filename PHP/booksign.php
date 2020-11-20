@@ -1,0 +1,36 @@
+<?php
+$user='root';
+$pass='abcd123';
+$db='ebook';
+$name='';
+$ph='';
+$email='';
+$passw='';
+$rpass='';
+$conn=mysqli_connect('localhost',$user,$pass,$db)or die("Unable to connect");
+if(isset($_POST['name']))
+{
+$name=$_POST['name'];
+}
+if(isset($_POST['call']))
+{
+$ph=$_POST['call'];
+}
+if(isset($_POST['mail']))
+{
+$email=$_POST['mail'];
+}
+if(isset($_POST['pass']))
+{
+$passw=$_POST['pass'];
+}
+if(isset($_POST['repass']))
+{
+$rpass=$_POST['repass'];
+}
+$sql="INSERT INTO userdetails (name,email,phone,password,repass) VALUES ('$name','$email','$ph','$passw','$rpass')";
+if(mysqli_query($conn,$sql))
+{
+header("Location:booksignedup.php");
+}
+?>
