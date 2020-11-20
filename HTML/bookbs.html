@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>eBookShop</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<style>
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.deal a
+{
+text-decoration:none;
+color:black;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.special a,.author a
+{
+text-decoration:none;
+color:white;
+}
+.menu a
+{
+text-decoration:none;
+color:black;
+}
+.dropdown h5
+{
+color:black;
+}
+.header
+{
+background-color:black    ;
+color:white;
+}
+.header h3 a
+{
+text-decoration:none;
+color:white;
+}
+.special,.author,.footer
+{
+color:white;
+background-color:black  ;
+}
+.quotes{
+	color:white;
+	text-align: center;
+	background:black  ;
+	width:100%;
+	height:75px;
+	padding: 10px 2.5%;
+}
+.about a,.readchoice a
+{
+text-decoration:none;
+color:black;
+}
+.disc
+{
+color:red;
+}
+.author img
+{
+border-radius: 50%;
+}
+.bestseller
+{
+background:black;
+color:white;
+border:solid white;
+}
+.bestseller a
+{
+color:white;
+text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<table>
+<col width=2500>
+<col width=190>
+<col width=350>
+<tr>
+<th height=50><h3><a href="http://localhost/wp-project/bhomepage.html">eBookShop</a></h3></th>
+<th><h3><a href="http://localhost/wp-project/booklogin.html">Login</a></h3></th>
+<th><h3><a href="http://localhost/wp-project/booksignup.html">Sign Up</a></h3></th>
+</tr>
+</table>
+</div>
+<div class="menu">
+<table width=100%>
+<tr>
+<th width=10%><div class="dropdown"><h5>Categories</h5>
+    <div class="dropdown-content">
+      <a href="http://localhost/wp-project/bookbs.html">Best Sellers</a>
+      <a href="http://localhost/wp-project/booklit.html">Literature and Fiction</a>
+      <a href="http://localhost/wp-project/bookcnt.html">Crime and Thriller</a>
+      <a href="http://localhost/wp-project/bookrom.html">Romance</a>
+      <a href="http://localhost/wp-project/bookclassics.html">Classics</a>
+      <a href="http://localhost/wp-project/bookscifi.html">Science Fiction</a>
+      <a href="http://localhost/wp-project/bookfan.html">Fantasy</a>
+      <a href="http://localhost/wp-project/bookyoung.html">Young Adult</a>
+      <a href="http://localhost/wp-project/bookchild.html">Children</a>
+      <a href="http://localhost/wp-project/booknonfi.html">Non Fiction</a>
+    </div>
+  </div> </th>
+<th width=10%><h5><a href="http://localhost/wp-project/bookbs.html">Best Sellers</a></h5></th>
+<th width=13%><h5><a href="http://localhost/wp-project/fb.html">Featured Books</a></h5></th>
+<th width=10%><h5><a href="http://localhost/wp-project/na.html">Newly Added</a></h5></th>
+<th width=53%><form name="searchform" method="post" autocomplete="off" action="http://localhost/wp-project/search.php">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="find" placeholder="Search" size="25"/><input type="submit" value="SEARCH" name="search" style="float:right"></form></th>
+</tr>
+</table>
+</div>
+<div class="Q">
+<strong>
+      <div class="quotes">“So many books, so little time.” ? Frank Zappa</div>
+      <div class="quotes">“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.” ? Jane Austen, Northanger Abbey</div>
+      <div class="quotes">“Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read.” ? Groucho Marx</div>
+      <div class="quotes">“Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.” ? John Green, The Fault in Our Stars</div>
+      <div class="quotes">“Be yourself; everyone else is already taken.” ? Oscar Wilde</div>
+      <div class="quotes">“If you tell the truth, you don't have to remember anything.” ? Mark Twain</div>
+      <div class="quotes">“Always forgive your enemies; nothing annoys them so much.” ? Oscar Wilde</div>
+      <div class="quotes">“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.” ? Albert Einstein</div>
+      <div class="quotes">“Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.” ? Neil Gaiman, Coraline</div>
+      <div class="quotes">“What really knocks me out is a book that, when you're all done reading it, you wish the author that wrote it was a terrific friend of yours and you could call him up on the phone whenever you felt like it. That doesn't happen much, though.” ? J.D. Salinger, The Catcher in the Rye</div>
+</strong>
+</div>
+<h2><center>Best Sellers</center></h2>
+<div class="bestseller"><br>
+<table width=100%>
+<col width=20%>
+<col width=20%>
+<col width=20%>
+<col width=20%>
+<col width=20%>
+<tr>
+<th><center><a href="#"><img src="girltrain.jpg" height="200" width="150"/><br>The Girl On The Train</a><br><span class="disc">146</span></center></th>
+<th><center><a href="#"><img src="nevergoback.jpg" height="200" width="150"/><br>Never Go Back</a><br><span class="disc">123</span></center></th>
+<th><center><a href="#"><img src="inferno.jpg" height="200" width="150"/><br>Inferno</a><br><span class="disc">201</span></center></th>
+<th><center><a href="#"><img src="revenant.jpg" height="200" width="150"/><br>The Revenant</a><br><span class="disc">143</span></center></th>
+<th><center><a href="#"><img src="3wishes.jpg" height="200" width="150"/><br>Three Wishes</a><br><span class="disc">187</span></center></th>
+</tr>
+<tr>
+<th><center><a href="#"><img src="truthforever.jpg" height="200" width="150"/><br>The Truth about Foerver</a><br><span class="disc">181</span></center></th>
+<th><center><a href="#"><img src="luckygirl.jpg" height="200" width="150"/><br>Luckiest Girl Alive</a><br><span class="disc">192</span></center></th>
+<th><center><a href="#"><img src="marblecollector.jpg" height="200" width="150"/><br>Marble Collector</a><br><span class="disc">199</span></center></th>
+<th><center><a href="#"><img src="makeme.jpg" height="200" width="150"/><br>Make Me</a><br><span class="disc">96</span></center></th>
+<th><center><a href="#"><img src="lisey.jpg" height="200" width="150"/><br>Lisey's Story</a><br><span class="disc">155</span></center></th>
+</tr>
+<tr>
+<th><center><a href="#"><img src="lemoncake.jpg" height="200" width="150"/><br>The Particular Sadness of Lemon Cake</a><br><span class="disc">162</span></center></th>
+<th><center><a href="#"><img src="lal.jpg" height="200" width="150"/><br>Life After Life</a><br><span class="disc">189</span></center></th>
+<th><center><a href="#"><img src="phantom.jpg" height="200" width="150"/><br>Phantom</a><br><span class="disc">138</span></center></th>
+<th><center><a href="#"><img src="citadel.jpg" height="200" width="150"/><br>Citadel</a><br><span class="disc">163</span></center></th>
+<th><center><a href="#"><img src="delusion.jpg" height="200" width="150"/><br>The God Delusion</a><br><span class="disc">214</span></center></th>
+</tr>
+<tr>
+<th><center><a href="#"><img src="hardway.jpg" height="200" width="150"/><br>The HardWay</a><br><span class="disc">134</span></center></th>
+<th><center><a href="#"><img src="girlnowhere.jpg" height="200" width="150"/><br>The Girl From Nowhere</a><br><span class="disc">100</span></center></th>
+<th><center><a href="#"><img src="geekgirl.jpg" height="200" width="150"/><br>Geek Girl</a><br><span class="disc">98</span></center></th>
+<th><center><a href="#"><img src="eliza.jpg" height="200" width="150"/><br>Elizabeth is Missing</a><br><span class="disc">186</span></center></th>
+<th><center><a href="#"><img src="bakery.jpg" height="200" width="150"/><br>Little Beach Street Bakery</a><br><span class="disc">120</span></center></th>
+</tr>
+<tr>
+<th><center><a href="#"><img src="dying.jpg" height="200" width="150"/><br>A Song for The Dying</a><br><span class="disc">119</span></center></th>
+<th><center><a href="#"><img src="castle.jpg" height="200" width="150"/><br>I Capture the Castle</a><br><span class="disc">131</span></center></th>
+<th><center><a href="#"><img src="skin.jpg" height="200" width="150"/><br>I've Got You Under My Skin</a><br><span class="disc">167</span></center></th>
+<th><center><a href="#"><img src="escape.jpg" height="200" width="150"/><br>The Escape</a><br><span class="disc">116</span></center></th>
+<th><center><a href="#"><img src="yearmet.jpg" height="200" width="150"/><br>The Year I Met You</a><br><span class="disc">146</span></center></th>
+</tr>
+</table>
+<br><br>
+</div>
+<div class="about">
+<table width=100%>
+<col width=65%>
+<col width=35%>
+<tr>
+<th><h2><center>About Us</center></h2><center>Ever wanted to buy a book but could not because it was too expensive? worry not! because eBookShop is here! eBookShop, these days in news,is being called
+as the Robinhood of the world of books. eBookShop team is committed to bring to you all kinds of best books at the minimal prices ever seen anywhere.
+Yes, we are literally giving you away a steal.</center></th>
+<th><center>
+<img src="https://media.giphy.com/media/H6KB7Tqy3OlOM/giphy.gif"/></center></th>
+</tr>
+</table>
+</div>
+<div class="footer">
+<h6>&copy;eBookShop. All Rights Reserved.</h6>
+</div>
+</body>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("quotes");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+</html
